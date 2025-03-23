@@ -1,0 +1,232 @@
+/* Global CSS Variables */
+:root {
+  --bg-primary: rgba(255, 255, 255, 0.9);
+  --bg-secondary: rgba(255, 255, 255, 0.8);
+  --text-primary: #2E7D32;
+  --accent-color: #2E7D32;
+  --border-color: rgba(46, 125, 50, 0.1);
+  --hover-bg: rgba(46, 125, 50, 0.1);
+  --gradient-start: #F1F8E9;
+  --gradient-end: #E8F5E9;
+}
+
+/* Base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+  font-family: 'Poppins', Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.sidebar {
+  display: none;
+}
+
+/* Page-Specific Backgrounds */
+body.home,
+body.reproduction-genetics,
+body.fish-conservation,
+body.sustainable-resources,
+body.conservation-mgmt,
+body.forest-conservation,
+body.endangered-species,
+body.conservation-methods,
+body.conservation-reasons {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  color: var(--text-primary);
+}
+
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+}
+
+.typing-text {
+  font-size: 3.5rem;
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  color: var(--text-primary);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.video-section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.topics-section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+
+.sidebar {
+  display: none !important;
+  width: 0;
+}
+
+/* Dark Theme */
+body.dark {
+  --bg-primary: rgba(33, 33, 33, 0.9);
+  --bg-secondary: rgba(33, 33, 33, 0.8);
+  --text-primary: #81C784;
+  --accent-color: #81C784;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --hover-bg: rgba(129, 199, 132, 0.1);
+  --gradient-start: #1a1a1a;
+  --gradient-end: #2c2c2c;
+}
+
+/* High Contrast Theme */
+body.high-contrast {
+  --bg-primary: black;
+  --bg-secondary: #111;
+  --text-primary: yellow;
+  --accent-color: yellow;
+  --border-color: yellow;
+  --hover-bg: rgba(255, 255, 0, 0.1);
+  --gradient-start: #000000;
+  --gradient-end: #111111;
+}
+
+/* Font Sizes */
+html {
+  font-size: 16px; /* Base size for medium */
+}
+
+html[data-font-size="small"] {
+  font-size: 12px;
+}
+
+html[data-font-size="medium"] {
+  font-size: 16px;
+}
+
+html[data-font-size="large"] {
+  font-size: 24px;
+}
+
+html[data-font-size="extra-large"] {
+  font-size: 32px;
+}
+
+/* Ensure all text elements scale with font size */
+h1 { font-size: 4rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 2.5rem; }
+p { font-size: 1.5rem; }
+li { font-size: 1.3rem; }
+
+/* Global link styles */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--text-primary);
+}
+
+/* Global button styles */
+button {
+  background: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: var(--hover-bg);
+}
+
+button.active {
+  background: var(--accent-color);
+  color: var(--bg-primary);
+}
