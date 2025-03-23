@@ -6,42 +6,42 @@ const topics = [
   {
     title: "Conservation\nManagement",
     path: "/conservation-management",
-    image: "/images/conservation-mgmt.jpg"
+    image: "cc5.jpeg"
   },
   {
     title: "Forest\nConservation",
     path: "/forest-conservation",
-    image: "/images/forest-conservation.jpg"
+    image: "cc12.jpeg"
   },
   {
     title: "Fish\nConservation",
     path: "/fish-conservation",
-    image: "/images/fish-conservation.jpg"
+    image: "cc14.jpeg"
   },
   {
     title: "Endangered\nSpecies",
     path: "/endangered-species",
-    image: "/images/endangered-species.jpg"
+    image: "cc1.jpg"
   },
   {
     title: "Conservation\nMethods",
     path: "/conservation-methods",
-    image: "/images/conservation-methods.jpg"
+    image: "cc6.jpeg"
   },
   {
     title: "Conservation\nReasons",
     path: "/conservation-reasons",
-    image: "/images/conservation-reasons.jpg"
+    image: "cc18.jpg"
   },
   {
     title: "Reproduction\nTechnology",
     path: "/reproduction-tech",
-    image: "/images/reproduction-tech.jpg"
+    image: "cc25.jpg"
   },
   {
     title: "Genetic\nVariation",
     path: "/genetic-variation",
-    image: "/images/genetic-variation.jpg"
+    image: "cc24.jpeg"
   }
 ];
 

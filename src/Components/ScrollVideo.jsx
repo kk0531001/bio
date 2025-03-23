@@ -8,7 +8,7 @@ const ScrollVideo = () => {
     <div className="scroll-video-container" ref={containerRef}>
       <div className="scroll-video">
         <img 
-          src="/biomes.jpg" 
+          src="biomes.jpg" 
           alt="Earth's Biomes"
           style={{
             width: '100%',

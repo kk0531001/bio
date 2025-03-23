@@ -17,7 +17,7 @@ const ForestConservationContent = () => {
           <div className="species-container">
             <strong>International Quotas</strong>
             <p>Countries, organizations, and governments establish agreements to limit deforestation, specifying exact quantities and types of trees that can be harvested from specific areas.</p>
-            <img src="/cc12.jpeg" className="endangered-image" alt="Logging Quotas" />
+            <img src="cc12.jpeg" className="endangered-image" alt="Logging Quotas" />
           </div>
         </li>
         <li>
@@ -30,7 +30,7 @@ const ForestConservationContent = () => {
           <div className="species-container">
             <strong>Reforestation Initiatives</strong>
             <p>Large-scale tree planting projects to restore damaged forests and create new woodland areas, helping to offset the impact of necessary logging activities.</p>
-            <img src="/cc13.jpg" className="endangered-image" alt="Reforestation Efforts" />
+            <img src="cc13.jpg" className="endangered-image" alt="Reforestation Efforts" />
           </div>
         </li>
       </ul>

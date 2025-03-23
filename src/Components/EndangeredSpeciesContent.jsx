@@ -34,25 +34,25 @@ const EndangeredSpeciesContent = () => {
         <li>
           <div className="species-container">
             <strong>Golden Toad (Incilius periglenes):</strong> Declared extinct in 2004 due to climate change affecting its cloud forest habitat in Costa Rica.
-            <img src="/cc1.jpg" className="endangered-image" alt="Golden Toad" />
+            <img src="cc1.jpg" className="endangered-image" alt="Golden Toad" />
           </div>
         </li>
         <li>
           <div className="species-container">
             <strong>Sumatran Orangutan (Pongo abelii):</strong> Critically endangered due to deforestation for palm oil plantations in Indonesia.
-            <img src="/cc2.jpeg" className="endangered-image" alt="Sumatran Orangutan" />
+            <img src="cc2.jpeg" className="endangered-image" alt="Sumatran Orangutan" />
           </div>
         </li>
         <li>
           <div className="species-container">
             <strong>Bengal Tiger (Panthera tigris tigris):</strong> Endangered due to illegal hunting for its skin, bones, and body parts.
-            <img src="/cc3.jpg" className="endangered-image" alt="Bengal Tiger" />
+            <img src="cc3.jpg" className="endangered-image" alt="Bengal Tiger" />
           </div>
         </li>
         <li>
           <div className="species-container">
             <strong>Atlantic Cod (Gadus morhua):</strong> Endangered due to overfishing, collapsing its population in the 1990s.
-            <img src="/cc4.jpg" className="endangered-image" alt="Atlantic Cod" />
+            <img src="cc4.jpg" className="endangered-image" alt="Atlantic Cod" />
           </div>
         </li>
       </ul>

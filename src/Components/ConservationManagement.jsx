@@ -13,7 +13,7 @@ const ConservationManagementContent = () => {
           <div className="species-container">
             <strong>Monitoring and protecting species and habitats</strong>
             <p>Using technology like GPS tracking and camera traps to monitor endangered species. Establishing protected areas like national parks and wildlife reserves.</p>
-            <img src="/cc5.jpeg" className="endangered-image" alt="GPS tracking for rhinos" />
+            <img src="cc5.jpeg" className="endangered-image" alt="GPS tracking for rhinos" />
           </div>
         </li>
         <li>
@@ -26,14 +26,14 @@ const ConservationManagementContent = () => {
           <div className="species-container">
             <strong>Captive breeding programs</strong>
             <p>Breeding endangered species in controlled environments such as zoos and wildlife reserves to increase their population and reintroduce them into the wild.</p>
-            <img src="/cc6.jpeg" className="endangered-image" alt="California condor captive breeding" />
+            <img src="cc6.jpeg" className="endangered-image" alt="California condor captive breeding" />
           </div>
         </li>
         <li>
           <div className="species-container">
             <strong>Seed banks</strong>
             <p>Storing seeds from endangered plant species to preserve genetic diversity and restore habitats in the future.</p>
-            <img src="/cc7.jpg" className="endangered-image" alt="Svalbard Global Seed Vault" />
+            <img src="cc7.jpg" className="endangered-image" alt="Svalbard Global Seed Vault" />
           </div>
         </li>
       </ul>

@@ -24,7 +24,7 @@ const ReproductionTechContent = () => {
           <div className="species-container">
             <strong>In Vitro Fertilization (IVF)</strong>
             <p>A groundbreaking laboratory procedure where eggs are fertilized outside the body in carefully controlled conditions, then implanted into a female. The term "In Vitro" literally means "in glass," referring to the laboratory equipment used.</p>
-            <img src="/cc25.jpg" className="endangered-image" alt="In Vitro Fertilization" />
+            <img src="cc25.jpg" className="endangered-image" alt="In Vitro Fertilization" />
             <ul>
               <li>Enables breeding of species with low fertility rates</li>
               <li>Preserves genetic material from critically endangered individuals</li>

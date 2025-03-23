@@ -18,7 +18,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Preventing Species Extinction</strong>
             <p>Through protected areas, breeding programs, and anti-poaching measures, conservation work helps stabilize and increase populations of endangered species threatened by human activities and climate change.</p>
-            <img src="/cc18.jpg" className="endangered-image" alt="Reducing Extinction" />
+            <img src="cc18.jpg" className="endangered-image" alt="Reducing Extinction" />
           </div>
         </li>
 
@@ -26,7 +26,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Safeguarding Critical Ecosystems</strong>
             <p>Protection of vital habitats like rainforests, coral reefs, and wetlands ensures these complex systems continue to support biodiversity and provide essential environmental services.</p>
-            <img src="/cc19.jpeg" className="endangered-image" alt="Protecting Valuable Ecosystems" />
+            <img src="cc19.jpeg" className="endangered-image" alt="Protecting Valuable Ecosystems" />
           </div>
         </li>
 
@@ -34,7 +34,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Supporting Natural Cycles</strong>
             <p>Healthy ecosystems maintain crucial processes like nutrient cycling, where decomposers, plants, and animals work together to ensure soil fertility and sustain life.</p>
-            <img src="/cc20.jpeg" className="endangered-image" alt="Nutrient Cycling" />
+            <img src="cc20.jpeg" className="endangered-image" alt="Nutrient Cycling" />
           </div>
         </li>
 
@@ -42,7 +42,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Securing Food Sources</strong>
             <p>Conservation ensures the continued availability of vital food resources from both terrestrial and marine ecosystems, supporting food security for countless species including humans.</p>
-            <img src="/cc21.jpeg" className="endangered-image" alt="Food Provision" />
+            <img src="cc21.jpeg" className="endangered-image" alt="Food Provision" />
           </div>
         </li>
 
@@ -50,7 +50,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Preserving Medicinal Resources</strong>
             <p>Many life-saving medicines come from natural sources - protecting biodiversity ensures we maintain access to these crucial compounds and potential future medical discoveries.</p>
-            <img src="/cc22.jpeg" className="endangered-image" alt="Drugs from Biodiversity" />
+            <img src="cc22.jpeg" className="endangered-image" alt="Drugs from Biodiversity" />
           </div>
         </li>
 
@@ -58,7 +58,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Sustainable Energy Resources</strong>
             <p>Conservation of forests and other ecosystems provides renewable resources for fuel and energy, offering sustainable alternatives to fossil fuels.</p>
-            <img src="/cc23.jpeg" className="endangered-image" alt="Fuel Resources" />
+            <img src="cc23.jpeg" className="endangered-image" alt="Fuel Resources" />
           </div>
         </li>
 
@@ -66,7 +66,7 @@ const ConservationReasonsContent = () => {
           <div className="species-container">
             <strong>Protecting Genetic Diversity</strong>
             <p>Maintaining genetic diversity in wild species provides valuable resources for improving crop resilience, disease resistance, and adaptation to changing conditions.</p>
-            <img src="/cc24.jpeg" className="endangered-image" alt="Genetic Diversity" />
+            <img src="cc24.jpeg" className="endangered-image" alt="Genetic Diversity" />
           </div>
         </li>
       </ul>
