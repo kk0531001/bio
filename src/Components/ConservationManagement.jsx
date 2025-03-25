@@ -13,7 +13,7 @@ const ConservationManagementContent = () => {
           <div className="species-container">
             <strong>Monitoring and protecting species and habitats</strong>
             <p>Using technology like GPS tracking and camera traps to monitor endangered species. Establishing protected areas like national parks and wildlife reserves.</p>
-            <img src="cc5.jpeg" className="endangered-image" alt="GPS tracking for rhinos" />
+            <img src="/public/cc5.jpeg" className="endangered-image" alt="GPS tracking for rhinos" />
           </div>
         </li>
         <li>
